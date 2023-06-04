@@ -12,6 +12,5 @@
     <p><h1>Khánh</h1></p>
     là bạn của tui và là 1 thằng nghiện xem anime<br>
     <div class="fb-like" data-href="https://github.com/than008/than008/commit/b86d0fca580d41315c7c3c29bd6c8a5431e3296b" data-width="" data-layout="" data-action="" data-size="" data-share="true"></div>
-    <div class="fb-comments" data-href="https://github.com/than008/than008/edit/main/README.md" data-width="100%" data-numposts="5"></div>
 </body>
 </html>
