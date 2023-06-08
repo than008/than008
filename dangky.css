@@ -1,0 +1,136 @@
+.body{ 
+    padding:0px;
+    margin:0px;
+}
+.container{
+    max-width:1000px;
+    margin:0 auto;
+    position: relative;
+}
+.container > header{
+    background-image: url(../images/food.jpg);
+    background-size: 100% 100%;
+    height: 0px;
+    padding-bottom: 25%;
+    position: relative;
+}
+header .top-right{
+    width: 350px;
+    height: 40px;
+    background-color: red;
+    position: absolute;
+    top: 0%;
+    right: 0%;
+    border-bottom-left-radius: 30px ;
+    text-align: center;
+    font-variant: small-caps;
+}
+header .top-right a{
+    text-decoration: none;
+    color: white;
+    line-height: 40px;
+    padding: 5px;
+}
+header .top-right a:hover{
+    text-decoration: underline;
+    color: gold;
+    font-weight: bold;
+}
+header .company-info{
+    width: 300px;
+    height: 80px;
+    position: absolute;
+    bottom: 12px;
+    left: 15px;
+
+}
+header .company-info h1{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: red;
+    font-size: 35px;
+    border-bottom: 1px dotted white;
+    text-shadow: 0 0 10px orangered;
+    text-align: center;
+}
+header .company-info h3{
+    margin: 0;
+    padding: 0;
+    font-variant: small-caps;
+    color: red;
+    letter-spacing: 3px;
+    text-align: center;
+}
+.container > nav{
+    line-height: 40px;
+    background-color: red;
+    color: white;
+    text-align: center;
+    font-variant: small-caps;
+}
+.container > article{
+    min-height:400px;
+    width: 80%;
+    background-color: white;
+    float: left;
+}
+.container > aside{
+    min-height: 400px;
+    width: 20%;
+    background-color: lightgray;
+    float: right;
+}
+.container > nav > a{
+    color: white;
+    text-decoration: none;
+    margin: 0 10px;
+}
+.container > nav > a:hover{
+    color:yellow;
+    text-decoration:underline;
+}
+iframe[name=page]{
+    width:100%;
+    height: 400px;
+}
+.vmenu{
+    padding: 0px;
+    margin: 5px;
+    list-style: none;
+    border-radius: 3px;
+    box-shadow: 0px 0px 2px gray;
+}
+.vmenu a{
+    background: url(../images/1.gif) no-repeat 10px center;
+    display: block;
+    border-bottom: 1px dotted red;
+    color: red;
+    font-variant: small-caps;
+    font-size: larger;
+    text-decoration: none;
+    padding: 8px 10px 8px 30px;
+}
+.vmenu a:hover{
+    background: url(../images/2.gif) no-repeat 10px center;
+    border-bottom: 1px dotted white;
+    background-color: rgb(240, 108, 0);
+    color: white;
+    font-weight: bold;
+}
+.bca {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px;
+    font-size: 20px;
+}
+footer {
+    border-top: 5px double orange;
+    line-height: 50px;
+    background-color: lightcyan;
+    text-align: center;
+    font-variant: small-caps;
+    clear: both;
+  }
+  
